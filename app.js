@@ -16,8 +16,8 @@ if (check.length >= 9) {
   } else {
     document.getElementById('demo').innerHTML = suu;
   }
+}else if (check.length == 0){
+  document.getElementById('demo').innerHTML = 'Siz son kiritmadingiz!';
 }else if (check.length < 8) {
-    document.getElementById('demo').innerHTML = 'Sizga korsatilgan sonlardan kamroq son kirittingiz!';
-}else {
-  document.getElementById('demo').innerHTML = 'ERROR';
+  document.getElementById('demo').innerHTML = 'Sizga korsatilgan sonlardan kamroq son kirittingiz!';
 }
